@@ -8,6 +8,11 @@ package main
 // 	s2 := "092282"
 // 	k2 := 3
 // 	fmt.Println(highestPalindrome(s2, k2)) // Output: "992299"
+
+//	s3 := "abbcccd"
+//	queries3 := []int32{1, 3, 9, 8}
+//	result3 := weightedStrings(s3, queries3)
+//	fmt.Println(result3) // Output: [Yes, Yes, Yes, No]
 // }
 
 func highestPalindrome(input string, k int) string {
